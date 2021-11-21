@@ -87,84 +87,87 @@ LRESULT CALLBACK WndProc(HWND hwnd,UINT message,WPARAM wParam,LPARAM lParam) {
         SetWindowHandle(hwnd);
 
         /// Base
-        drawLineDDA(123,164,53,174);
-        drawLineDDA(53,174,268,304);
-        drawLineDDA(268,304,530,229);
-        drawLineDDA(530,229,531,239);
-        drawLineDDA(531,239,268,316);
-        drawLineDDA(268,316,53,184);
-        drawLineDDA(53,184,54,174);
-        drawLineDDA(268,304,268,316); /// mid line
-        drawLineDDA(531,229,452,201); /// last Line
+        drawLineDDA(296,493,120,517);
+        drawLineDDA(120,517,658,843);
+        drawLineDDA(658,843,1315,659);
+        drawLineDDA(1315,659,1316,682);
+        drawLineDDA(1316,682,656,874);
+        drawLineDDA(656,874,118,542);
+        drawLineDDA(118,542,121,517);
+        drawLineDDA(657,871,656,842);
+        drawLineDDA(1313,656,1119,586);
 
         ///front Door side
-        drawLineDDA(270,205,270,332);
-        drawLineDDA(270,332,452,286);
-        drawLineDDA(452,286,452,178);
-        drawLineDDA(346,312,346,223);
-        drawLineDDA(346,223,398,212);
-        drawLineDDA(398,212,396,299);
-        drawLineDDA(396,299,394,299);
-        drawLineDDA(394,299,395,216);
-        drawLineDDA(395,216,351,226);
-        drawLineDDA(351,226,350,310); /// door line
+        drawLineDDA(663,438,663,754);
+        drawLineDDA(663,754,1118,639);
+        drawLineDDA(1118,639,1119,369);
+        drawLineDDA(980,671,981,454);
+        drawLineDDA(981,454,854,482);
+        drawLineDDA(854,482,853,705);
+        drawLineDDA(853,705,863,702);
+        drawLineDDA(863,702,863,489);
+        drawLineDDA(863,489,974,466);
+        drawLineDDA(974,466,972,675);
 
         /// window line
-        drawLineDDA(124,118,123,210);
-        drawLineDDA(123,210,270,288);
-        drawLineDDA(234,239,235,183);
-        drawLineDDA(235,183,150,148);
-        drawLineDDA(150,148,150,197);
-        drawLineDDA(150,197,234,240);
-        drawLineDDA(229,232,229,185);
-        drawLineDDA(229,185,152,153);
-        drawLineDDA(152,153,152,195);
-        drawLineDDA(152,195,229,232);
-        drawLineDDA(192,214,192,169);
-        drawLineDDA(187,167,186,210);
-        drawLineDDA(156,189,176,170);
-        drawLineDDA(160,191,176,175);
-        drawLineDDA(200,208,220,189);
-        drawLineDDA(206,211,222,194);
+        drawLineDDA(296,324,294,554);
+        drawLineDDA(294,554,662,753);
+        drawLineDDA(574,629,574,488);
+        drawLineDDA(574,488,364,399);
+        drawLineDDA(364,399,361,524);
+        drawLineDDA(361,524,574,629);
+        drawLineDDA(561,610,560,492);
+        drawLineDDA(560,492,370,411);
+        drawLineDDA(370,411,367,516);
+        drawLineDDA(367,516,562,610);
+        drawLineDDA(469,565,468,453);
+        drawLineDDA(457,448,453,557);
+
+        drawLineDDA(377,503,428,450);
+        drawLineDDA(389,508,427,468);
+        drawLineDDA(487,551,537,501);
+        drawLineDDA(504,557,543,517);
 
         /// upper base
-        drawLineDDA(453,187,464,186);
-        drawLineDDA(464,186,470,181);
-        drawLineDDA(470,181,368,101);
-        drawLineDDA(368,101,255,209);
-        drawLineDDA(255,209,111,152);
-        drawLineDDA(111,152,116,156);
-        drawLineDDA(116,156,259,215);
-        drawLineDDA(259,215,367,111);
-        drawLineDDA(367,111,464,186);
-        drawLineDDA(367,102,367,111);
-        drawLineDDA(254,209,258,214);
-        drawLineDDA(111,151,172,105);
-        drawLineDDA(207,78,210,74);
-        drawLineDDA(210,74,367,101);
+        drawLineDDA(265,303,418,186);
+        drawLineDDA(507,120,516,110);
+        drawLineDDA(515,111,907,178);
+        drawLineDDA(907,178,625,447);
+        drawLineDDA(625,447,266,305);
+        drawLineDDA(266,305,281,320);
+        drawLineDDA(281,320,634,463);
+        drawLineDDA(634,463,906,203);
+        drawLineDDA(906,203,1148,390);
+        drawLineDDA(1148,390,1161,377);
+        drawLineDDA(1161,377,907,176);
+        drawLineDDA(907,176,906,201);
+        drawLineDDA(636,464,626,445);
+        drawLineDDA(1119,391,1148,392);
 
         /// Upper fire base
-        drawLineDDA(172,82,188,74);
-        drawLineDDA(188,74,209,79);
-        drawLineDDA(209,79,194,89);
-        drawLineDDA(194,89,172,82);
-        drawLineDDA(172,82,172,130);
-        drawLineDDA(172,130,194,138);
-        drawLineDDA(194,138,208,125);
-        drawLineDDA(208,125,209,80);
-        drawLineDDA(194,89,194,138);
-        drawLineDDA(178,82,189,76);
-        drawLineDDA(189,76,203,79);
-        drawLineDDA(203,79,194,86);
-        drawLineDDA(194,86,178,81);
-        drawLineDDA(172,116,153,131);
-        drawLineDDA(153,131,195,147);
-        drawLineDDA(195,147,227,118);
-        drawLineDDA(227,118,208,114);
+        drawLineDDA(419,215,371,253);
+        drawLineDDA(371,253,474,296);
+        drawLineDDA(474,296,560,217);
+        drawLineDDA(560,217,510,207);
+
+        drawLineDDA(418,132,473,151);
+        drawLineDDA(473,151,511,123);
+        drawLineDDA(511,123,460,110);
+        drawLineDDA(460,110,416,131);
+        drawLineDDA(416,131,417,249);
+        drawLineDDA(417,249,472,269);
+        drawLineDDA(472,269,510,237);
+        drawLineDDA(510,237,510,124);
+        drawLineDDA(473,269,472,147);
+
+        drawLineDDA(472,140,494,123);
+        drawLineDDA(494,123,461,115);
+        drawLineDDA(461,115,434,129);
+        drawLineDDA(434,129,471,140);
 
         /// horizontal Line
-        drawLineDDA(10,172,123,172);
-        drawLineDDA(458,172,574,172);
+        drawLineDDA(11,355,296,354);
+        drawLineDDA(1133,354,1422,355);
 
         break;
 
