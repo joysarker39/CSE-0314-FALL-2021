@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<style>
+			#myCanvas{
+				border:1px solid #ccc;
+				height:750px;
+				overflow:hidden;
+				background-image:url("g1.png");
+				background-repeat: no-repeat;
+			}
+		
+		</style>
+	</head>
+	
+	<body>
+
+		<div id="myCanvas" onclick="showCoords(event)">
+			
+		</div>
+		<button onclick="showList()">GetResult</button>
+		<p id="demo" style="padding-left:20px;"></p>
+		
+		<script>
+		
+			var cordX = [];
+			var cordY = [];
+			var cnt = -1;
+			
+			function showCoords(event) {
+			  cnt++;
+				
+			  cordX[cnt] = event.clientX;
+			  cordY[cnt] = event.clientY;
+				  			  			
+			}
+			
+			function showList(){
+				var i;
+				//circle starts
+				/*
+				var xC = parseInt((Math.abs(cordX[0]-cordX[1])/2)+cordX[0]);
+				var yC = parseInt((Math.abs(cordY[2]-cordY[3])/2)+cordY[2]);
+				var radiousX = parseInt(Math.abs(cordX[0]-cordX[1])/2);
+				var radiousY = parseInt(Math.abs(cordY[2]-cordY[3])/2);
+				
+				
+				var coords = "drawCircle("+ xC +"," + yC + "," + radiousX + "," + radiousY + ");";
+				document.write(coords);
+				//circle ends
+				*/
+				//line code starts
+				for(i=1;i<=cnt;i=i+2){
+					
+					var coords = "drawLineDDA(" + cordX[i-1] + "," + cordY[i-1] + "," + cordX[i] + "," + cordY[i] + ");<br>";
+					//document.getElementById("demo").innerHTML = coords;
+					document.write(coords);
+					
+				}
+				// line code ends
+			
+			}
+			
+</script>
+	</body>
+</html>
