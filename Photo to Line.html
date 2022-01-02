@@ -7,7 +7,7 @@
 				border:1px solid #ccc;
 				height:750px;
 				overflow:hidden;
-				background-image:url("g1.png");
+				background-image:url("hnew.png");
 				background-repeat: no-repeat;
 			}
 		
@@ -53,7 +53,8 @@
 				//line code starts
 				for(i=1;i<=cnt;i=i+2){
 					
-					var coords = "drawLineDDA(" + cordX[i-1] + "," + cordY[i-1] + "," + cordX[i] + "," + cordY[i] + ");<br>";
+					//var coords = "drawLineDDA(" + cordX[i-1] + "," + cordY[i-1] + "," + cordX[i] + "," + cordY[i] + ");<br>";
+					var coords = " clipLine(winMin, winMax, {" + cordX[i-1] + "," + cordY[i-1] + "},{" + cordX[i] + "," + cordY[i] + "} );<br>";
 					//document.getElementById("demo").innerHTML = coords;
 					document.write(coords);
 					
